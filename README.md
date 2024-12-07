@@ -1,8 +1,12 @@
-# React + Vite
+# Valleyball
+Это приложение для игры в волейбол с таймером, разработанное для анализа времени игры и тренировок.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Установка
+1. Клонировать репозиторий.
+2. Установить зависимости: `npm install`
+3. Запустить приложение: `npm start`
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Функции
+- Таймеры для обеих команд.
+- Система подсчета очков.
+- Поддержка нескольких игроков.
