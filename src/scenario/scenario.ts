@@ -7,6 +7,7 @@ import {
     createMatchers,
 } from '@salutejs/scenario';
 import { SaluteMemoryStorage } from '@salutejs/storage-adapter-memory';
+// @ts-ignore
 import { handleScoreChange, resetGame } from './handlers'; // Ваши функции из React компонента
 
 const { regexp, action } = createMatchers();
